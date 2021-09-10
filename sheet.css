@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background: #ededed;
+    font-family: arial
+}
+
+.container {
+    width: 980px;
+    margin: auto;
+}
+
+.header {
+    padding: 10px
+}
+
+.menu {
+    height: 50px;
+    background: #333333;
+    border-radius: 5px
+}
+
+.menu ul {
+    list-style: none
+}
+
+.menu ul li {
+    float: left;
+    line-height: 50px;
+    width: 20%;
+    text-align: center;
+}
+
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.menu ul li a:hover {
+    display: block;
+    background: #d6d8db;
+    color: black
+}
+
+.menu ul li:first-child a {
+    border-radius: 5px 0 0 5px
+}
+
+.menu ul li:last-child a {
+    border-radius: 0 5px 5px 0
+}
+
+.part {
+    margin-top: 10px
+}

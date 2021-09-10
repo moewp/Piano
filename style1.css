@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background: #ededed;
+    font-family: arial
+}
+
+.container {
+    width: 980px;
+    margin: auto;
+}
+
+.header {
+    padding: 10px
+}
+
+.menu {
+    height: 50px;
+    background: #333333;
+    border-radius: 5px
+}
+
+.menu ul {
+    list-style: none
+}
+
+.menu ul li {
+    float: left;
+    line-height: 50px;
+    width: 16.6666%;
+    text-align: center;
+}
+
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.menu ul li a:hover {
+    display: block;
+    background: #d6d8db;
+    color: black
+}
+
+.menu ul li:first-child a {
+    border-radius: 5px 0 0 5px
+}
+
+.menu ul li:last-child a {
+    border-radius: 0 5px 5px 0
+}
+
+.slider {
+    margin-top: 10px
+}
+
+.services {
+    text-align: center;
+    margin-top: 20px
+}
+
+.services h2 {
+    margin-bottom: 20px
+}
+
+.services p {
+    font-size: 16px
+}
+
+.banner {
+    display: flex;
+    margin-top: 20px;
+    text-align: center
+}
+
+.banner .box {
+    background: #d6d8db;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+}
+
+.banner .box h3 {
+    margin: 10px 0;
+}
+
+#footer {
+    background-color: #333333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px
+}
+
+.daftar {
+    width: 500px;
+    background: #d6d8db;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    background: #333333;
+    padding: 10px;
+    margin-bottom: 5px;
+    color: #f5faf9;
+    text-align: center;
+    border-radius: 5px;
+}
+
+table {
+    width: 112px;
+    color: black
+}
+
+input[type="text"] {
+    width: 325px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 10px 0;
+}
+
+input[type="email"] {
+    width: 325px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 10px 0;
+}
+
+input[type="password"] {
+    width: 325px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 10px 0;
+}
+
+select {
+    width: 112px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 10px 0;
+}
+
+.syarat {
+    margin-top: 10px
+}
+
+.syarat a {
+    color: black;
+}
+
+input[type="submit"] {
+    width: 480px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(95, 109, 95);
+    background: #333333;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 0;
+    color: #f5faf9;
+}
+
+.bx-wrapper {
+    border: 0px !important;
+}
